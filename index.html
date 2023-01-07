@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<body>
+    <div class="container">
+
+        <div class="satu">1</div>
+        <div class="dua">2</div>
+        <div class="tiga">3</div>
+        <div class="empat">4</div>
+        <!-- <div class="empat">4</div>
+        <div class="empat">4</div> -->
+    </div>
+    
+    <style>
+        .container{
+            width: 600px;
+            height: 200px;
+            border: 5px solid #333;
+            margin: 30px auto;
+            padding: 5px;
+            box-sizing: border-box;
+            display: flex;
+            /* flex-direction: row | row-reverse | column | column-reverse ; */
+            /* flex-wrap: nowrap | wrap | wrap-reverse; */
+            /* justify-content: space-evenly | space-between | center;    */
+            /* align-items: center | flex-start | flex-end | stretch; */
+            
+        }
+        
+        .container div {
+            /* width:  100px;
+            height: 100px; */
+            background-color: blue;
+            margin: 2px;
+            
+
+            flex: 1;
+        }
+
+        .container div.dua{
+            flex: 3;
+        }
+        
+        .container div.tiga{
+            flex: 2;
+        }
+        
+        /* .satu { order: 3;}
+        .dua {
+            order: 2
+        }
+        .tiga {
+            order: 4
+        }
+        .empat {
+            order: 3
+        } */
+     </style>
+</body>
+</html>
